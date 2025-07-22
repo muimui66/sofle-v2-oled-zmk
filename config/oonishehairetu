@@ -216,20 +216,19 @@ behaviors {
 
 
 bindings = <
-  // 左手 1〜29
   &macro_win1       &macro_win2       &macro_win3       &macro_win4       &macro_win5       &macro_win6
   &ht_esc_adjust    &kp Q             &kp L             &kp U             &kp COMMA         &kp DOT
-  &ht_caps_lctl     &kp E             &kp I             &kp A             &kp O             &kp MINUS
+  &ht_caps_ctrl     &kp E             &kp I             &kp A             &kp O             &kp MINUS
   &kp LSHFT         &kp Z             &kp X             &kp C             &kp V             &kp BSPC
-  &kp LGUI          &ht_f17_lalt      &ht_tab_raise     &ht_space_lower   &kp RSHFT
+  &macro_ctrlk      &kp LGUI          &ht_f17_lalt      &ht_tab_raise     &ht_space_lower   &ht_ctrlc_adjust
 
-  // 右手 30〜58
   &macro_win7       &macro_scrnN      &macro_scrnH      &macro_altesc     &kp PSCRN         &macro_altf4
-  &kp F             &kp W             &kp R             &kp Y             &kp P             &macro_winv
-  &kp K             &kp T             &kp N             &kp S             &kp H             &ht_win_v_adjust
-  &kp BSPC          &kp G             &kp D             &kp M             &kp J             &ht_b300 &kp B &kp LSHFT
-  &kp RET           &ht_space_raise   &ht_f15_raise     &ht_f14_lalt      &kp RGUI
+  &kp F             &kp W             &kp R             &kp Y             &kp P             &ht_win_v_ctrl
+  &kp K             &kp T             &kp N             &kp S             &kp H             &ht_senter_ctrl
+  &mkp LCLK         &kp BSPC          &kp G             &kp D             &kp M             &kp J
+  &ht_b300          &kp RET           &ht_space_lower   &ht_f15_raise     &ht_f14_lalt      &kp RGUI
 >;
+
 };
 
  encoder_left: encoder_left {
